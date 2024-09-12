@@ -83,15 +83,36 @@ namespace PingCastle
 			{"EPProtectedService", "Bitdefender Endpoint Protected Service"},
 			{"epredline", "Bitdefender Endpoint Redline Services"},
 			{"EPSecurityService", "Bitdefender Endpoint Security Service"},
-			{"EPUpdateService", "Bitdefender Endpoint Update Service"},
-			
-			{"CSFalconService", "CrowdStrike Falcon Sensor Service"}, 	
-			
-			{"CylanceSvc", "Cylance"}, 
+			{"BDAuxSrv", "Bitdefender Auxiliary Service"},
+   			{"UPDATESRV", "Bitdefender Desktop Update Service"},
+			{"VSSERV", "Bitdefender Virus Shield"},
+   			{"bdredline", "Bitdefender RedLine Service"},
+       			{"EPUpdateService", "Bitdefender Agent RedLine Service"},
 
+      			{"CSFalconService", "CrowdStrike Falcon Sensor Service"},
+			{"bdredline_agent", "CrowdStrike Falcon Sensor Service"},
+
+			{"xdrhealth", "Cortex XDR Health Helper"},
+      			{"cyserver", "Cortex XDR"},
+	 
+			{"CylanceSvc", "Cylance"},
+   			
+      			{"CybereasonActiveProbe", "Cybereason Active Probe"},
+      			{"CybereasonCRS", "Cybereason Anti-Ransomware"},
+	       		{"CybereasonBlocki", "Cybereason Execution Prevention"},
+
+			{"EraAgentSvc", "ESET Management Agent service"},
+   			{"ekm", "ESET"},
 			{"epfw", "ESET"}, 
 			{"epfwlwf", "ESET"}, 
-			{"epfwwfp" , "ESET"}, 
+			{"epfwwfp" , "ESET"},
+   			{"ERAAgent", "ESET Management Agent service"},
+     			{"efwd", "ESET Communication Forwarding Service"},
+      			{"ehttpsrv", "ESET HTTP Server"},
+
+      			{"AVKWCtl", "Anti-virus Kit Window Control"},
+	       		{"AVKProxy", "G Data AntiVirus Proxy Service"},
+	         	{"GDScan", "GDSG Data AntiVirus Scan Service"},
 
 			{"xagt" , "FireEye Endpoint Agent"}, 
 
@@ -110,7 +131,10 @@ namespace PingCastle
 			{"kavfsslp", "Kasperksky"},
 			{"KAVFSGT", "Kasperksky"},
 			{"KAVFS", "Kasperksky"},
-			
+
+   	          	{"mfetp","Trellix Endpoint Threat Prevention Service"},
+	    		{"mfeaack","Trellix Anti-Malware Core Service"},
+	       	        {"mfemactl","Trellix Management Service"},
 			{"enterceptagent", "MacAfee"},
 			{"macmnsvc", "MacAfee Agent Common Services"},
 			{"masvc", "MacAfee Agent Service"},
@@ -120,7 +144,16 @@ namespace PingCastle
 			{"mfemms", "MacAfee Service Controller"},
 			{"mfevtp", "MacAfee Validation Trust Protection Service"},
 			{"mfewc", "MacAfee Endpoint Security Web Control Service"},
-			
+   	    		{"McAfee Endpoint Security Platform Service","Trellix Core Service"},
+	          	
+       			{"Parity", "Carbon Black App Control Agent"},
+      
+      			{"AcronisActiveProtectionService", "Acronis Active Protection Service"},
+
+			{"PandaAetherAgent", "Panda Endpoint Agent"},
+   			{"PSUAService", "Panda Product Service"},
+      			{"NanoServiceMain", "Panda Cloud Antivirus Service"},
+	 
 			{"cyverak", "PaloAlto Traps KernelDriver"},
 			{"cyvrmtgn", "PaloAlto Traps KernelDriver"},
 			{"cyvrfsfd", "PaloAlto Traps FileSystemDriver"},
@@ -134,6 +167,10 @@ namespace PingCastle
 			{"SentinelStaticEngine ", "SentinelIbe Static Service"},
 			{"LogProcessorService ", "SentinelOne Agent Log Processing Service"},
 
+   			{"SntpService", "Sophos Network Threat Protection"},
+      			{"Sophos Endpoint Defense Service","Sophos Endpoint Defense Service"},
+	       		{"Sophos Live Query","Sophos Live Query"},
+	   	      	{"Sophos Managed Threat Response","Sophos Managed Threat Response"},
 			{"sophosssp", "Sophos"},
 			{"Sophos Agent", "Sophos"},
 			{"Sophos AutoUpdate Service", "Sophos"},
@@ -154,8 +191,15 @@ namespace PingCastle
 			{"Symantec System Recovery" , "Symantec System Recovery"},
 			{"Smcinst", "Symantec Connect"},
 			{"SmcService", "Symantec Connect"},
-			 
-			{"AMSP", "Trend"},
+   			{"SepScanService", "Symantec Endpoint Protection Scan Services"},
+
+    	    		{"Trend Micro Endpoint Basecamp","Trend Micro Endpoint Basecamp"},
+	   	    	{"TMBMServer","Trend Micro Unauthorized Change Prevention Service"},
+	   	    	{"Trend Micro Web Service Communicator","Trend Micro Web Service Communicator"},
+	  		{"AMSP", "Trend"},
+     			{"TMiACAgentSvc", "Trend Micro Application Control Service (Agent)"},
+			{"CETASvc", "Trend Micro Cloud Endpoint Telemetry Service"},
+			{"iVPAgent", "Trend Micro Vulnerability Protection Service (Agent)"},
 			{"tmcomm", "Trend"},
 			{"tmactmon", "Trend"},
 			{"tmevtmgr", "Trend"},
